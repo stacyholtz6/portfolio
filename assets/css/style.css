@@ -4,6 +4,7 @@ body {
 .main {
   background-color: orange;
   padding: 3rem;
+  margin-bottom: 5rem;
 }
 
 .card-img-top {
@@ -13,5 +14,19 @@ body {
 }
 
 .resume {
-  padding: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.nav-link:hover {
+  color: #e600e6;
+}
+
+.icon, .copy {
+  font-size: 1rem;
+}
+
+.icon, 
+.copy, .navbar {
+  color: rgb(227,227,227);
 }
