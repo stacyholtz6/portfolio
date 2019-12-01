@@ -1,12 +1,40 @@
 body {
-  background: url("../images/light-grey-terrazzo.png") ;
+  color: #283E51;
+  background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .main {
-  background-color: orange;
+  /* background-color: orange; */
   padding: 3rem;
   margin-bottom: 5rem;
 }
 
+.img {
+  filter: grayscale(100%);
+}
+
+img:hover {
+  border: 3px solid #4B79A1;
+}
+
+.btn.outline {
+ background: none;
+ 
+}
+
+.btn-primary.outline {
+  border: 2px solid #4B79A1;
+  color: #4B79A1;
+}
+
+.btn-primary.outline:hover, 
+.btn-primary.outline:focus, 
+.btn-primary.outline:active, 
+.btn-primary.outline.active {
+  color: #283E51;
+  border-color: #283E51;
+}
 .card-img-top {
   width: 100%;
   height: 15vw;
@@ -18,15 +46,30 @@ body {
   height: auto;
 }
 
-.nav-link:hover {
+.nav-link {
+  color: #4B79A1;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #283E51;
+}
+
+.icon:hover {
+  color: #283E51;
+}
+
+.icon{
+margin: .5rem;
+font-size: 1.5rem;
+color: #4B79A1;
+}
+
+.copy:hover {
   color: #e600e6;
 }
-
-.icon, .copy {
-  font-size: 1rem;
-}
-
-.icon, 
-.copy, .navbar {
+.copy {
+  font-size: .5rem;
   color: rgb(227,227,227);
 }
+ 
