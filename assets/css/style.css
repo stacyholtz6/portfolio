@@ -11,3 +11,7 @@ body {
   height: 15vw;
   object-fit: cover;
 }
+
+.resume {
+  padding: 30px;
+}
