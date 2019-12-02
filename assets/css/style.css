@@ -5,14 +5,9 @@ body {
   background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .main {
-  /* background-color: orange; */
   padding: 3rem;
   margin-bottom: 5rem;
 }
-
-/* .img {
-  filter: grayscale(100%);
-} */
 
 img:hover {
   border: 3px solid #4B79A1;
@@ -74,9 +69,9 @@ font-size: 1.5rem;
 color: #4B79A1;
 }
 
-.copy:hover {
+/* .copy:hover {
   color: #e600e6;
-}
+} */
 .copy {
   font-size: .5rem;
   color: rgb(227,227,227);
