@@ -10,9 +10,9 @@ body {
   margin-bottom: 5rem;
 }
 
-.img {
+/* .img {
   filter: grayscale(100%);
-}
+} */
 
 img:hover {
   border: 3px solid #4B79A1;
@@ -50,10 +50,19 @@ img:hover {
   color: #4B79A1;
 }
 
-.nav-link:hover,
-.nav-link:active {
+.nav-link:hover
+ {
   color: #283E51;
 }
+
+/* ul li.active a {
+  background: pink;
+} */
+
+/* .nav-link:active {
+  color: pink;
+  background: pink;
+} */
 
 .icon:hover {
   color: #283E51;
